@@ -71,6 +71,7 @@ class GarbageController extends Controller
      */
     public function update(Request $request, Garbage $garbage)
     {
+      // Here's basically it
       $val = $request->value;
       if($val == '>'){
         $garbage->min = $garbage->number;

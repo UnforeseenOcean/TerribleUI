@@ -13,6 +13,7 @@ class CreateGarbagesTable extends Migration
      */
     public function up()
     {
+      // run 'php artisan migrate' to set up the database
         Schema::create('garbages', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('min')->nullable();

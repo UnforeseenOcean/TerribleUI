@@ -22,7 +22,7 @@
 }
 </style>
 <body>
-
+<!-- Here's the page -->
   <div class="">
     @if ($garbage->max == $garbage->min && $garbage->min != null)
     <h2>YOUR NUMBER IS {{$garbage->number}}</h2>

@@ -19,6 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+//routes
+
 Route::get('garbage', 'GarbageController@index');
 Route::get('garbage/create', 'GarbageController@create');
 Route::get('garbage/{garbage}/edit', 'GarbageController@edit');
